@@ -1,9 +1,11 @@
+//HTML Imports
 const myLabel = document.getElementById("myLabel");
 const myInput = document.getElementById("myInput");
 const myBtn = document.getElementById("myBtn");
 const resultAge = document.getElementById("resultAge");
 let age = 0;
 
+//Button action after clicked
 myBtn.onclick = function () {
   age = myInput.value;
   age = Number(age);
