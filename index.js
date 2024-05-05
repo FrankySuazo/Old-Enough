@@ -9,6 +9,8 @@ let age = 0;
 myBtn.onclick = function () {
   age = myInput.value;
   age = Number(age);
+
+  //Different 'routes' depending on the user input
   if (age >= 100) {
     myLabel.textContent =
       "Where you found the fountain of youth? Don't worry I wont tell Google";
